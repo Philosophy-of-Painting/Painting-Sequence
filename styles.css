@@ -1,0 +1,132 @@
+html, body {
+  position: absolute;
+  inset: 0;
+  width: 100%;
+  height: 100%;
+  margin: 0;
+  padding: 0;
+  background: #000;
+}
+body.home-page {
+  color: #fff;
+  font-family: Arial, sans-serif;
+  text-align: center;
+}
+.home-page div {
+  margin-top: .5%;
+  margin-bottom: .5%;
+}
+.home-page a {
+  color: #fff;
+  text-decoration: none;
+}
+@media only screen and (max-width: 720px) {
+  .home-page div { margin-top: 5%; margin-bottom: 2%; }
+}
+body.article-page {
+  color: #fff;
+  font-family: "Open Sans", sans-serif;
+}
+.article-shell {
+  width: 100%;
+  height: 100%;
+  background: #000;
+}
+.article-content {
+  max-width: 13cm;
+  margin: auto;
+  padding-right: 5px;
+  padding-left: 5px;
+  color: #bbb;
+  font-family: "Open Sans", sans-serif;
+  font-size: 14px;
+  line-height: 1.5;
+  text-align: left;
+}
+html[dir="rtl"] .article-content { text-align: right; }
+.article-title {
+  color: #fff;
+  font-size: 22px;
+  text-align: center;
+}
+.article-page .headl {
+  color: #ddd;
+  font-weight: bold;
+  line-height: 1.5;
+}
+html[dir="rtl"] .article-page .headl { color: #fff; }
+html[dir="rtl"] .article-page b { color: #ddd; }
+.article-content img { max-width: 100%; }
+.article-content .full-strip {
+  display: block;
+  width: 100%;
+}
+.article-content .full-strip img {
+  display: block;
+  width: 100%;
+  height: auto;
+}
+body.slider-page {
+  color: #fff;
+  font-family: "Open Sans", sans-serif;
+}
+
+[data-u=caption] {
+            color: white;
+
+            font-family: "Open Sans", sans-serif;
+
+        }
+
+        .jssorl-003-oval img {
+            animation-name: jssorl-003-oval;
+            animation-duration: 1.2s;
+            animation-iteration-count: infinite;
+            animation-timing-function: linear;
+        }
+
+        @keyframes jssorl-003-oval {
+            from {
+                transform: rotate(0deg);
+            }
+            to {
+                transform: rotate(360deg);
+            }
+        }
+
+        .jssora081 {
+            display: block;
+            position: absolute;
+            cursor: pointer;
+        }
+
+        .jssora081 .c {
+            fill: #000;
+            fill-opacity: .5;
+            stroke: #fff;
+            stroke-width: 120;
+            stroke-miterlimit: 10;
+            stroke-opacity: 0.5;
+        }
+
+        .jssora081 .a {
+            fill: #fff;
+            opacity: .8;
+        }
+
+        .jssora081:hover .c {
+            fill-opacity: .3;
+        }
+
+        .jssora081:hover .a {
+            opacity: 1;
+        }
+
+        .jssora081.jssora081dn {
+            opacity: .5;
+        }
+
+        .jssora081.jssora081ds {
+            opacity: 0;
+            pointer-events: none;
+        }
